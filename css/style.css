@@ -53,7 +53,7 @@ h2 .accordion-button {
 	-ms-flex-align: center;
 	align-items: center;
 	background-color: rgba(0, 0, 0, 0.79);
-	background-image: url(../img/vraie-foret.jpeg);
+	background-image: url(../img/vraie-foret-small.jpeg);
 	background-position: 50% 50%;
 	background-size: cover;
 	color: #fff;
@@ -135,7 +135,7 @@ input[type="range"]::-webkit-slider-thumb {
 	appearance: none;
 	-webkit-appearance: none;
 	background-color: rgb(43, 199, 95);
-	background-image: url("data:image/svg+xml;charset=US-ASCII,%3Csvg%20width%3D%2212%22%20height%3D%228%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cpath%20d%3D%22M8%20.5v7L12%204zM0%204l4%203.5v-7z%22%20fill%3D%22%23FFFFFF%22%20fill-rule%3D%22nonzero%22%2F%3E%3C%2Fsvg%3E");
+	background-image: url(../img/cursor.svg);
 	background-position: center;
 	background-repeat: no-repeat;
 	border: 0;
@@ -147,7 +147,7 @@ input[type="range"]::-webkit-slider-thumb {
 
 input[type="range"]::-moz-range-thumb {
 	background-color: rgb(43, 199, 95);
-	background-image: url("data:image/svg+xml;charset=US-ASCII,%3Csvg%20width%3D%2212%22%20height%3D%228%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cpath%20d%3D%22M8%20.5v7L12%204zM0%204l4%203.5v-7z%22%20fill%3D%22%23FFFFFF%22%20fill-rule%3D%22nonzero%22%2F%3E%3C%2Fsvg%3E");
+	background-image: url(../img/cursor.svg);
 	background-position: center;
 	background-repeat: no-repeat;
 	border: 0;
@@ -160,7 +160,7 @@ input[type="range"]::-moz-range-thumb {
 
 input[type="range"]::-ms-thumb {
 	background-color: rgb(43, 199, 95);
-	background-image: url("data:image/svg+xml;charset=US-ASCII,%3Csvg%20width%3D%2212%22%20height%3D%228%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cpath%20d%3D%22M8%20.5v7L12%204zM0%204l4%203.5v-7z%22%20fill%3D%22%23FFFFFF%22%20fill-rule%3D%22nonzero%22%2F%3E%3C%2Fsvg%3E");
+	background-image: url(../img/cursor.svg);
 	background-position: center;
 	background-repeat: no-repeat;
 	border: 0;
@@ -302,12 +302,12 @@ input[type="range"]::-moz-focus-outer {
 	width: 24px;
 	height: 24px;
 	margin-right: 12px;
-	background-image: url("data:image/svg+xml;charset=US-ASCII,%3Csvg%20width%3D%2224%22%20height%3D%2224%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cpath%20d%3D%22M5%2011h14v2H5z%22%20fill%3D%22%239298B8%22%20fill-rule%3D%22nonzero%22%2F%3E%3C%2Fsvg%3E");
+	background-image: url('../img/check.svg');
 	background-repeat: no-repeat;
 	-webkit-box-ordinal-group: 0;
 	order: -1;
 }
 
 .pricing-item-features-list li.is-checked::after {
-	background-image: url("data:image/svg+xml;charset=US-ASCII,%3Csvg%20width%3D%2224%22%20height%3D%2224%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cg%20fill-rule%3D%22nonzero%22%20fill%3D%22none%22%3E%3Ccircle%20fill%3D%22%2300C2A9%22%20cx%3D%2212%22%20cy%3D%2212%22%20r%3D%2212%22%2F%3E%3Cpath%20fill%3D%22%23fff%22%20d%3D%22M10.5%2012.267l-2.5-1.6-1%201.066L10.5%2016%2017%209.067%2016%208z%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E");
+	background-image: url('../img/check.svg');
 }
