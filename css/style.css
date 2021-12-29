@@ -1,72 +1,97 @@
 .bd-placeholder-img {
-    font-size: 1.125rem;
-    text-anchor: middle;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    user-select: none;
-  }
-  @media (min-width: 768px) {
-    .bd-placeholder-img-lg {
-      font-size: 3.5rem;
-    }
-  }
-  * {font-family: 'Fuzzy Bubbles', cursive;}
-  strong {font-weight: 700;}
-  h1, h2, h3 {font-family: 'Noto Serif', serif; 
-     font-weight: 400;}
-  h2 {font-size: 1.3rem;}
-  h2 .accordion-button {font-family: 'Fuzzy Bubbles', cursive; font-weight: 700;}
-.cover{
-display: flex;
-height: 620px;
-margin-bottom: 100px;
--webkit-box-pack: center;
--webkit-justify-content: center;
--ms-flex-pack: center;
-justify-content: center;
--webkit-box-align: center;
--webkit-align-items: center;
--ms-flex-align: center;
-align-items: center;
-background-color: rgba(0, 0, 0, 0.79);
-background-image: url(../img/vraie-foret.jpeg);
-background-position: 50% 50%;
-background-size: cover;
-color: #fff;
-background-clip: padding-box;
--webkit-text-fill-color: inherit;
--o-object-fit: none;
-object-fit: none;
--o-object-position: 50% 100%;
-object-position: 50% 100%;
-}
-.btn-success {
-    background-color: rgb(43, 199, 95);
-    border: none;
+	font-size: 1.125rem;
+	text-anchor: middle;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	user-select: none;
 }
 
+@media (min-width: 768px) {
+	.bd-placeholder-img-lg {
+		font-size: 3.5rem;
+	}
+}
+
+* {
+	font-family: 'Fuzzy Bubbles', cursive;
+}
+
+strong {
+	font-weight: 700;
+}
+
+h1,
+h2,
+h3 {
+	font-family: 'Noto Serif', serif;
+	font-weight: 400;
+}
+
+h2 {
+	font-size: 1.3rem;
+}
+
+h2 .accordion-button {
+	font-family: 'Fuzzy Bubbles', cursive;
+	font-weight: 700;
+}
+
+.cover {
+	display: flex;
+	height: 620px;
+	margin-bottom: 100px;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	-ms-flex-align: center;
+	align-items: center;
+	background-color: rgba(0, 0, 0, 0.79);
+	background-image: url(../img/vraie-foret.jpeg);
+	background-position: 50% 50%;
+	background-size: cover;
+	color: #fff;
+	background-clip: padding-box;
+	-webkit-text-fill-color: inherit;
+	-o-object-fit: none;
+	object-fit: none;
+	-o-object-position: 50% 100%;
+	object-position: 50% 100%;
+}
+
+.btn-success {
+	background-color: rgb(43, 199, 95);
+	border: none;
+}
 
 .accordion-button:not(.collapsed) {
-    color: rgb(43, 199, 95);
-   background-color: rgba(43, 199, 95, 0.075);
+	color: rgb(43, 199, 95);
+	background-color: rgba(43, 199, 95, 0.075);
 }
-.strike {text-decoration: line-through;}
+
+.strike {
+	text-decoration: line-through;
+}
+
 a.anchor {
-    display: block;
-    position: relative;
-    top: -125px;
-    visibility: hidden;
+	display: block;
+	position: relative;
+	top: -125px;
+	visibility: hidden;
 }
+
 *,
 *:before,
 *:after {
-box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 html {
-font-size: 16px;
-line-height: 24px;
-letter-spacing: -0.1px;
+	font-size: 16px;
+	line-height: 24px;
+	letter-spacing: -0.1px;
 }
 
 body,
@@ -74,189 +99,211 @@ button,
 input,
 select,
 textarea {
-font-weight: 400;
+	font-weight: 400;
 }
+
 .button {
-display: flex;
-width: 100%;
-text-decoration: none !important;
-color: #ffffff;
-background-color: rgb(43, 199, 95);
-cursor: pointer;
-justify-content: center;
-text-align: center;
-letter-spacing: inherit;
-white-space: nowrap;
+	display: flex;
+	width: 100%;
+	text-decoration: none !important;
+	color: #ffffff;
+	background-color: rgb(43, 199, 95);
+	cursor: pointer;
+	justify-content: center;
+	text-align: center;
+	letter-spacing: inherit;
+	white-space: nowrap;
 }
 
 input[type="range"] {
--moz-appearance: none;
--webkit-appearance: none;
-background: #7c7c7c;
-border-radius: 3px;
-height: 6px;
-width: 100%;
-margin-top: 15px;
-margin-bottom: 15px;
-outline: none;
+	-moz-appearance: none;
+	-webkit-appearance: none;
+	background: #7c7c7c;
+	border-radius: 3px;
+	height: 6px;
+	width: 100%;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	outline: none;
 }
+
 input[type="range"]::-webkit-slider-thumb {
-appearance: none;
--webkit-appearance: none;
-background-color: rgb(43, 199, 95);
-background-image: url("data:image/svg+xml;charset=US-ASCII,%3Csvg%20width%3D%2212%22%20height%3D%228%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cpath%20d%3D%22M8%20.5v7L12%204zM0%204l4%203.5v-7z%22%20fill%3D%22%23FFFFFF%22%20fill-rule%3D%22nonzero%22%2F%3E%3C%2Fsvg%3E");
-background-position: center;
-background-repeat: no-repeat;
-border: 0;
-border-radius: 50%;
-cursor: pointer;
-height: 36px;
-width: 36px;
+	appearance: none;
+	-webkit-appearance: none;
+	background-color: rgb(43, 199, 95);
+	background-image: url("data:image/svg+xml;charset=US-ASCII,%3Csvg%20width%3D%2212%22%20height%3D%228%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cpath%20d%3D%22M8%20.5v7L12%204zM0%204l4%203.5v-7z%22%20fill%3D%22%23FFFFFF%22%20fill-rule%3D%22nonzero%22%2F%3E%3C%2Fsvg%3E");
+	background-position: center;
+	background-repeat: no-repeat;
+	border: 0;
+	border-radius: 50%;
+	cursor: pointer;
+	height: 36px;
+	width: 36px;
 }
+
 input[type="range"]::-moz-range-thumb {
-background-color: rgb(43, 199, 95);
-background-image: url("data:image/svg+xml;charset=US-ASCII,%3Csvg%20width%3D%2212%22%20height%3D%228%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cpath%20d%3D%22M8%20.5v7L12%204zM0%204l4%203.5v-7z%22%20fill%3D%22%23FFFFFF%22%20fill-rule%3D%22nonzero%22%2F%3E%3C%2Fsvg%3E");
-background-position: center;
-background-repeat: no-repeat;
-border: 0;
-border: none;
-border-radius: 50%;
-cursor: pointer;
-height: 36px;
-width: 36px;
+	background-color: rgb(43, 199, 95);
+	background-image: url("data:image/svg+xml;charset=US-ASCII,%3Csvg%20width%3D%2212%22%20height%3D%228%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cpath%20d%3D%22M8%20.5v7L12%204zM0%204l4%203.5v-7z%22%20fill%3D%22%23FFFFFF%22%20fill-rule%3D%22nonzero%22%2F%3E%3C%2Fsvg%3E");
+	background-position: center;
+	background-repeat: no-repeat;
+	border: 0;
+	border: none;
+	border-radius: 50%;
+	cursor: pointer;
+	height: 36px;
+	width: 36px;
 }
+
 input[type="range"]::-ms-thumb {
-background-color: rgb(43, 199, 95);
-background-image: url("data:image/svg+xml;charset=US-ASCII,%3Csvg%20width%3D%2212%22%20height%3D%228%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cpath%20d%3D%22M8%20.5v7L12%204zM0%204l4%203.5v-7z%22%20fill%3D%22%23FFFFFF%22%20fill-rule%3D%22nonzero%22%2F%3E%3C%2Fsvg%3E");
-background-position: center;
-background-repeat: no-repeat;
-border: 0;
-border-radius: 50%;
-cursor: pointer;
-height: 36px;
-width: 36px;
+	background-color: rgb(43, 199, 95);
+	background-image: url("data:image/svg+xml;charset=US-ASCII,%3Csvg%20width%3D%2212%22%20height%3D%228%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cpath%20d%3D%22M8%20.5v7L12%204zM0%204l4%203.5v-7z%22%20fill%3D%22%23FFFFFF%22%20fill-rule%3D%22nonzero%22%2F%3E%3C%2Fsvg%3E");
+	background-position: center;
+	background-repeat: no-repeat;
+	border: 0;
+	border-radius: 50%;
+	cursor: pointer;
+	height: 36px;
+	width: 36px;
 }
+
 input[type="range"]::-moz-focus-outer {
-border: 0;
+	border: 0;
 }
 
 .pricing-slider {
-max-width: 280px;
-margin: 0 auto;
+	max-width: 280px;
+	margin: 0 auto;
 }
 
 .form-slider span {
-display: block;
-font-weight: 500;
-text-align: center;
-margin-bottom: 16px;
+	display: block;
+	font-weight: 500;
+	text-align: center;
+	margin-bottom: 16px;
 }
 
 .pricing-slider {
-margin-bottom: 48px;
+	margin-bottom: 48px;
 }
 
 .pricing-slider {
-max-width: 280px;
-margin-left: auto;
-margin-right: auto;
-position: relative;
+	max-width: 280px;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
 }
+
 .pricing-slider input {
-width: 100%;
+	width: 100%;
 }
+
 .pricing-slider .pricing-slider-value {
-position: absolute;
-font-size: 14px;
-line-height: 22px;
-font-weight: 500;
-color: #909cb5;
-margin-top: 8px;
---thumb-size: 36px;
+	position: absolute;
+	font-size: 14px;
+	line-height: 22px;
+	font-weight: 500;
+	color: #909cb5;
+	margin-top: 8px;
+	--thumb-size: 36px;
 }
+
 .pricing-items {
-display: flex;
-flex-wrap: wrap;
-justify-content: center;
-margin-right: -12px;
-margin-left: -12px;
-margin-top: -12px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin-right: -12px;
+	margin-left: -12px;
+	margin-top: -12px;
 }
+
 .pricing-item {
-flex-basis: 280px;
-max-width: 280px;
-box-sizing: content-box;
-padding: 12px;
+	flex-basis: 280px;
+	max-width: 280px;
+	box-sizing: content-box;
+	padding: 12px;
 }
+
 .pricing-item-inner {
-display: flex;
-flex-wrap: wrap;
-flex-direction: column;
-height: 100%;
-padding: 24px;
-box-shadow: 0 8px 16px rgba(46, 52, 88, 0.16);
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	height: 100%;
+	padding: 24px;
+	box-shadow: 0 8px 16px rgba(46, 52, 88, 0.16);
 }
+
 .pricing-item-title {
-font-weight: 500;
+	font-weight: 500;
 }
+
 .pricing-item-amount {
-display: inline-flex;
-align-items: baseline;
-font-size: 20px;
+	display: inline-flex;
+	align-items: baseline;
+	font-size: 20px;
 }
+
 .pricing-item-price {
-display: inline-flex;
-align-items: baseline;
-font-size: 20px;
+	display: inline-flex;
+	align-items: baseline;
+	font-size: 20px;
 }
+
 .pricing-item-price-amount {
-font-size: 36px;
-line-height: 48px;
-font-weight: 500;
+	font-size: 36px;
+	line-height: 48px;
+	font-weight: 500;
 }
+
 .pricing-item-price-currency {
-font-size: 28px;
-font-weight: 300;
+	font-size: 28px;
+	font-weight: 300;
 }
+
 .pricing-item-price-after {
-font-size: 23px;
+	font-size: 23px;
 }
+
 .pricing-item-price-amount .sm-c {
-    font-size: 22px;
-    line-height: 1;
+	font-size: 22px;
+	line-height: 1;
 }
+
 .pricing-item-features-list {
-list-style: none;
-padding: 0;
+	list-style: none;
+	padding: 0;
 }
+
 .pricing-item-features-list li {
-margin-bottom: 0;
-padding: 14px 0;
-position: relative;
-display: flex;
-align-items: center;
+	margin-bottom: 0;
+	padding: 14px 0;
+	position: relative;
+	display: flex;
+	align-items: center;
 }
+
 .pricing-item-features-list li::before {
-content: "";
-position: absolute;
-top: 0;
-left: 0;
-width: 100%;
-display: block;
-height: 1px;
-background: #e9ecf8;
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	display: block;
+	height: 1px;
+	background: #e9ecf8;
 }
+
 .pricing-item-features-list li::after {
-content: "";
-display: block;
-width: 24px;
-height: 24px;
-margin-right: 12px;
-background-image: url("data:image/svg+xml;charset=US-ASCII,%3Csvg%20width%3D%2224%22%20height%3D%2224%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cpath%20d%3D%22M5%2011h14v2H5z%22%20fill%3D%22%239298B8%22%20fill-rule%3D%22nonzero%22%2F%3E%3C%2Fsvg%3E");
-background-repeat: no-repeat;
--webkit-box-ordinal-group: 0;
-order: -1;
+	content: "";
+	display: block;
+	width: 24px;
+	height: 24px;
+	margin-right: 12px;
+	background-image: url("data:image/svg+xml;charset=US-ASCII,%3Csvg%20width%3D%2224%22%20height%3D%2224%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cpath%20d%3D%22M5%2011h14v2H5z%22%20fill%3D%22%239298B8%22%20fill-rule%3D%22nonzero%22%2F%3E%3C%2Fsvg%3E");
+	background-repeat: no-repeat;
+	-webkit-box-ordinal-group: 0;
+	order: -1;
 }
+
 .pricing-item-features-list li.is-checked::after {
-background-image: url("data:image/svg+xml;charset=US-ASCII,%3Csvg%20width%3D%2224%22%20height%3D%2224%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cg%20fill-rule%3D%22nonzero%22%20fill%3D%22none%22%3E%3Ccircle%20fill%3D%22%2300C2A9%22%20cx%3D%2212%22%20cy%3D%2212%22%20r%3D%2212%22%2F%3E%3Cpath%20fill%3D%22%23fff%22%20d%3D%22M10.5%2012.267l-2.5-1.6-1%201.066L10.5%2016%2017%209.067%2016%208z%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E");
+	background-image: url("data:image/svg+xml;charset=US-ASCII,%3Csvg%20width%3D%2224%22%20height%3D%2224%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cg%20fill-rule%3D%22nonzero%22%20fill%3D%22none%22%3E%3Ccircle%20fill%3D%22%2300C2A9%22%20cx%3D%2212%22%20cy%3D%2212%22%20r%3D%2212%22%2F%3E%3Cpath%20fill%3D%22%23fff%22%20d%3D%22M10.5%2012.267l-2.5-1.6-1%201.066L10.5%2016%2017%209.067%2016%208z%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E");
 }
