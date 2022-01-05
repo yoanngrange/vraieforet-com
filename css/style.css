@@ -26,13 +26,18 @@ strong {
 
 h1,
 h2,
-h3 {
+h3, 
+h4 {
 	font-family: 'Noto Serif', serif;
 	font-weight: 400;
 }
 
 h2 {
 	font-size: 1.3rem;
+}
+
+h4 {
+	font-size: 0.9rem;
 }
 
 h2 .accordion-button {
