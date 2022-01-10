@@ -1,5 +1,5 @@
-<?xml version="1.0" standalone="yes"?>
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Ski Trail Rating Symbols - Green Circle" viewbox="0 0 599 599" width="600" height="600">
-	<circle id="green_circle" fill="#393" cx="300" cy="300" r="250" />
+<svg width="568" height="568" viewBox="0 0 568 568" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle cx="284" cy="284" r="284" fill="#306C3F"/>
+<path d="M145.985 289.349C143.466 285.856 143.466 281.144 145.985 277.651L240.127 147.101C245.804 139.229 258.238 143.245 258.238 152.95V414.05C258.238 423.755 245.804 427.771 240.127 419.899L145.985 289.349Z" fill="white"/>
+<path d="M422.016 277.651C424.534 281.144 424.534 285.856 422.016 289.349L327.873 419.899C322.196 427.771 309.762 423.755 309.762 414.05V152.95C309.762 143.245 322.196 139.229 327.873 147.101L422.016 277.651Z" fill="white"/>
 </svg>
