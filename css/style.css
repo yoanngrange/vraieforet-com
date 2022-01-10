@@ -27,6 +27,8 @@ strong {
 .img-logo {
 	width: 50px;
 }
+.green-link {color: rgb(45, 108, 63);}
+.green-link:hover, .green-link:active, .green-link:focus {color: rgb(96, 202, 126);}
 .bg-green {background-color: rgb(45, 108, 63); margin-top: 0px;}
 .bg-green h2.white, .bg-green p.white {
 	color: #FFF;
@@ -46,6 +48,10 @@ h1 {
 
 h2 {
 	font-size: 1.3rem;
+}
+h2.section-title {
+	font-size: 1.7rem;
+	font-weight: 700;
 }
 
 h4 {
@@ -92,6 +98,7 @@ p.card-text {font-size: 0.9rem;}
 	background-color: rgb(45, 108, 63);
 	border: none;
 }
+.btn-success:hover, .btn-success:active, .btn-success:focus {background-color: rgb(96, 202, 126);}
 
 .accordion-button:not(.collapsed) {
 	color: rgb(45, 108, 63);
