@@ -93,6 +93,8 @@ p.card-text {font-size: 0.9rem;}
 	-o-object-position: 50% 100%;
 	object-position: 50% 100%;
 }
+a.green-link {color: rgb(138, 151, 142);}
+a.green-link:hover, a.green-link:active {color: rgb(96, 202, 126);}
 
 .btn-success {
 	background-color: rgb(45, 108, 63);
