@@ -27,16 +27,35 @@ strong {
 .img-logo {
 	width: 50px;
 }
-.green-link {color: rgb(62, 126, 81);}
-.green-link:hover, .green-link:active, .green-link:focus {color: rgb(96, 202, 126);}
-.bg-green {background-color: rgb(62, 126, 81); margin-top: 0px;}
-.bg-green h2.white, .bg-green p.white {
+
+.green-link {
+	color: rgb(62, 126, 81);
+}
+
+.green-link:hover,
+.green-link:active,
+.green-link:focus {
+	color: rgb(96, 202, 126);
+}
+
+.bg-green {
+	background-color: rgb(62, 126, 81);
+	margin-top: 0px;
+}
+
+.bg-green h2.white,
+.bg-green p.white {
 	color: #FFF;
 }
-.lg-padd {padding-top: 3rem; padding-bottom: 8rem;}
+
+.lg-padd {
+	padding-top: 3rem;
+	padding-bottom: 8rem;
+}
+
 h1,
 h2,
-h3, 
+h3,
 h4 {
 	font-family: 'Noto Serif', serif;
 	font-weight: 400;
@@ -49,6 +68,7 @@ h1 {
 h2 {
 	font-size: 1.3rem;
 }
+
 h2.section-title {
 	font-size: 1.7rem;
 	font-weight: 700;
@@ -63,13 +83,20 @@ h2 .accordion-button {
 	font-weight: 700;
 }
 
-h2.card-title {font-weight: 700;}
+h2.card-title {
+	font-weight: 700;
+}
+
 h5.card-title {
 	font-family: 'Noto Serif', serif;
 	font-weight: 400;
 	font-size: 0.75rem;
 }
-p.card-text {font-size: 0.9rem;}
+
+p.card-text {
+	font-size: 0.9rem;
+}
+
 .cover {
 	display: flex;
 	height: 620px;
@@ -93,14 +120,26 @@ p.card-text {font-size: 0.9rem;}
 	-o-object-position: 50% 100%;
 	object-position: 50% 100%;
 }
-a.green-link {color: rgb(138, 151, 142);}
-a.green-link:hover, a.green-link:active {color: rgb(96, 202, 126);}
+
+a.green-link {
+	color: rgb(138, 151, 142);
+}
+
+a.green-link:hover,
+a.green-link:active {
+	color: rgb(96, 202, 126);
+}
 
 .btn-success {
 	background-color: rgb(62, 126, 81);
 	border: none;
 }
-.btn-success:hover, .btn-success:active, .btn-success:focus {background-color: rgb(96, 202, 126);}
+
+.btn-success:hover,
+.btn-success:active,
+.btn-success:focus {
+	background-color: rgb(96, 202, 126);
+}
 
 .accordion-button:not(.collapsed) {
 	color: rgb(62, 126, 81);
@@ -118,228 +157,24 @@ a.anchor {
 	visibility: hidden;
 }
 
-*,
-*:before,
-*:after {
-	box-sizing: border-box;
+.realisations .label {
+	font-family: 'Noto Serif', serif;
+	font-weight: 700;
+	font-size: 0.9rem;
 }
 
-html {
-	font-size: 16px;
-	line-height: 24px;
-	letter-spacing: -0.1px;
-}
-
-body,
-button,
-input,
-select,
-textarea {
+.realisations .blockquote {
+	font-family: 'Noto Serif', serif;
 	font-weight: 400;
+	font-size: 0.9rem;
 }
 
-.button {
-	display: flex;
-	width: 100%;
-	text-decoration: none !important;
-	color: #ffffff;
-	background-color: rgb(62, 126, 81);
-	cursor: pointer;
-	justify-content: center;
-	text-align: center;
-	letter-spacing: inherit;
-	white-space: nowrap;
+.realisations .blockquote-footer {
+	margin-top: 0.5rem;
 }
 
-input[type="range"] {
-	-moz-appearance: none;
-	-webkit-appearance: none;
-	background: #7c7c7c;
-	border-radius: 3px;
-	height: 6px;
-	width: 100%;
-	margin-top: 15px;
-	margin-bottom: 15px;
-	outline: none;
-}
-
-input[type="range"]::-webkit-slider-thumb {
-	appearance: none;
-	-webkit-appearance: none;
-	background-color: rgb(62, 126, 81);
-	background-image: url(../img/cursor.svg);
-	background-position: center;
-	background-repeat: no-repeat;
-	border: 0;
-	border-radius: 50%;
-	cursor: pointer;
-	height: 36px;
-	width: 36px;
-}
-
-input[type="range"]::-moz-range-thumb {
-	background-color: rgb(62, 126, 81);
-	background-image: url(../img/cursor.svg);
-	background-position: center;
-	background-repeat: no-repeat;
-	border: 0;
-	border: none;
-	border-radius: 50%;
-	cursor: pointer;
-	height: 36px;
-	width: 36px;
-}
-
-input[type="range"]::-ms-thumb {
-	background-color: rgb(62, 126, 81);
-	background-image: url(../img/cursor.svg);
-	background-position: center;
-	background-repeat: no-repeat;
-	border: 0;
-	border-radius: 50%;
-	cursor: pointer;
-	height: 36px;
-	width: 36px;
-}
-
-input[type="range"]::-moz-focus-outer {
-	border: 0;
-}
-
-.pricing-slider {
-	max-width: 280px;
-	margin: 0 auto;
-}
-
-.form-slider span {
-	display: block;
-	font-weight: 500;
-	text-align: center;
-	margin-bottom: 16px;
-}
-
-.pricing-slider {
-	margin-bottom: 48px;
-}
-
-.pricing-slider {
-	max-width: 280px;
-	margin-left: auto;
-	margin-right: auto;
-	position: relative;
-}
-
-.pricing-slider input {
-	width: 100%;
-}
-
-.pricing-slider .pricing-slider-value {
-	position: absolute;
-	font-size: 14px;
-	line-height: 22px;
-	font-weight: 500;
-	color: #909cb5;
-	margin-top: 8px;
-	--thumb-size: 36px;
-}
-
-.pricing-items {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
-	margin-right: -12px;
-	margin-left: -12px;
-	margin-top: -12px;
-}
-
-.pricing-item {
-	flex-basis: 280px;
-	max-width: 280px;
-	box-sizing: content-box;
-	padding: 12px;
-}
-
-.pricing-item-inner {
-	display: flex;
-	flex-wrap: wrap;
-	flex-direction: column;
-	height: 100%;
-	padding: 24px;
-	box-shadow: 0 8px 16px rgba(46, 52, 88, 0.16);
-}
-
-.pricing-item-title {
-	font-weight: 500;
-}
-
-.pricing-item-amount {
-	display: inline-flex;
-	align-items: baseline;
-	font-size: 20px;
-}
-
-.pricing-item-price {
-	display: inline-flex;
-	align-items: baseline;
-	font-size: 20px;
-}
-
-.pricing-item-price-amount {
-	font-size: 36px;
-	line-height: 48px;
-	font-weight: 500;
-}
-
-.pricing-item-price-currency {
-	font-size: 28px;
-	font-weight: 300;
-}
-
-.pricing-item-price-after {
-	font-size: 23px;
-}
-
-.pricing-item-price-amount .sm-c {
-	font-size: 22px;
+.realisations .citation {
+	font-size: 1.2rem;
+	font-weight: 700;
 	line-height: 1;
-}
-
-.pricing-item-features-list {
-	list-style: none;
-	padding: 0;
-}
-
-.pricing-item-features-list li {
-	margin-bottom: 0;
-	padding: 14px 0;
-	position: relative;
-	display: flex;
-	align-items: center;
-}
-
-.pricing-item-features-list li::before {
-	content: "";
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	display: block;
-	height: 1px;
-	background: #e9ecf8;
-}
-
-.pricing-item-features-list li::after {
-	content: "";
-	display: block;
-	width: 24px;
-	height: 24px;
-	margin-right: 12px;
-	background-image: url('../img/check.svg');
-	background-repeat: no-repeat;
-	-webkit-box-ordinal-group: 0;
-	order: -1;
-}
-
-.pricing-item-features-list li.is-checked::after {
-	background-image: url('../img/check.svg');
 }
