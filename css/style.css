@@ -178,3 +178,7 @@ a.anchor {
 	font-weight: 700;
 	line-height: 1;
 }
+.card-link {
+	text-decoration: none;
+	color: #000;
+}
