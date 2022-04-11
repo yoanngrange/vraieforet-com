@@ -1,0 +1,30 @@
+.blog-title {
+    margin-top: 6rem;
+    text-shadow: none;
+}
+.blog-intro {
+    font-style: italic;
+    font-size: 0.8rem;
+    border-top: 1px solid #EEE;
+    border-bottom: 1px solid #EEE;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+.blog-intro, .blog-question, .blog-source{
+	font-family: 'Noto Serif', serif;
+	font-weight: 400;
+}
+.blog-reply {
+    margin-left: 1.5rem;
+    border-left: solid 8px rgb(240 240 240);
+    padding-left: 1.5rem;
+    margin-bottom: 2rem;
+}
+.blog-illustration {
+    margin-bottom: 2rem;
+}
+.blog-source {
+    font-size: 0.7rem;   
+}
