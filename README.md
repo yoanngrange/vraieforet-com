@@ -1,40 +1,38 @@
-Vraie Forêt — Site officiel
+# Vraie Forêt — Site officiel  
+**https://vraieforet.com/**
 
-https://vraieforet.com/
-
-Vraie Forêt est une association loi 1901 basée en Loire-Atlantique.
+Vraie Forêt est une association loi 1901 basée en Loire-Atlantique.  
 Elle accompagne les particuliers, collectivités et entreprises dans leurs projets de restauration écologique : haies bocagères, mini-forêts, mares, plessage et végétalisation.
 
-Ce dépôt contient le code source du site officiel de l’association.
+Ce dépôt contient le code source du site officiel de l’association.  
 Le site est statique, léger, sans cookies, sans JavaScript et hébergé via GitHub Pages.
 
-🎯 Objectifs du site
+---
 
-Présenter l’association et ses valeurs
+## 🎯 Objectifs du site
 
-Décrire les types de projets accompagnés
+- Présenter l’association et ses valeurs  
+- Décrire les types de projets accompagnés  
+- Mettre en avant les témoignages des bénéficiaires  
+- Permettre un contact simple par email ou téléphone  
+- Proposer une navigation claire
 
-Mettre en avant les témoignages des bénéficiaires
+---
 
-Permettre un contact simple par email ou téléphone
+## 🧱 Stack technique
 
-Proposer une navigation claire et responsive sans dépendances superflues
+- **HTML5** (pages statiques)  
+- **CSS3**  
+- **Bootstrap 5** (CSS uniquement, sans JS)  
+- Aucune dépendance JavaScript  
+- Aucune collecte de données, aucun cookie, aucun tracker  
+- Hébergement : **GitHub Pages**
 
-🧱 Stack technique
+---
 
-HTML5 (pages statiques)
+## 📁 Structure du dépôt
 
-CSS3
-
-Bootstrap 5 (version CSS uniquement, pas de JS)
-
-Aucune dépendance JavaScript
-
-Aucune collecte de données, aucun cookie, aucun tracker
-
-Hébergement : GitHub Pages
-
-📁 Structure du dépôt
+```
 .
 ├── css/
 │   ├── bootstrap.min.css
@@ -46,43 +44,37 @@ Hébergement : GitHub Pages
 │   └── vraie-foret.mp4
 ├── index.html
 └── README.md
+```
 
-🚀 Déploiement (GitHub Pages)
+---
+
+## 🚀 Déploiement (GitHub Pages)
 
 Le site est automatiquement déployé via GitHub Pages.
 
-Pour mettre à jour le site :
+Pour mettre à jour le site il suffit de commit sur la branche "main".
 
-Modifier les fichiers (ex : index.html, styles2.css, images, etc.)
+GitHub Pages régénère ensuite le site automatiquement.
 
-Committer les modifications :
+---
 
-git add .
-git commit -m "Mise à jour du site"
-git push
+## ✏️ Modifier le site
 
+### Modifier le contenu HTML  
+Le contenu principal se trouve dans :  
+`index.html`
 
-GitHub Pages met à jour le site dans les secondes suivantes.
+### Modifier les styles  
+Les ajustements de design sont dans :  
+`css/styles2.css`
 
-✏️ Modifier le site
-Modifier le contenu HTML
+### Modifier les images / vidéos  
+Déposer les fichiers dans `img/` ou `vids/` et mettre à jour les chemins dans l’HTML.
 
-Le contenu principal se trouve dans :
-index.html
+---
 
-Modifier les styles
+## 📬 Contact
 
-Les ajustements de design sont dans :
-css/styles.css
-
-Modifier les images / vidéos
-
-Placez les fichiers dans img/ ou vids/ et mettez à jour les chemins dans l’HTML.
-
-
-📬 Contact
-
-👉 Email : vraie.foret@gmail.com
-
-👉 Téléphone : 06 43 67 78 14
-👉 Site web : https://vraieforet.com/
+👉 **Email** : vraie.foret@gmail.com  
+👉 **Téléphone** : 06 43 67 78 14  
+👉 **Site web** : https://vraieforet.com/
