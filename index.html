@@ -1,13 +1,12 @@
-<!DOCTYPE html>
-<html lang="fr" class="h-100" data-bs-theme="light">
-
+<!doctype html>
+<html lang="fr">
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Vraie Forêt - Plantation d'arbres, de haies, de forêts, de vergers et création de mares en Loire-Atlantique (44)">
-    <meta name="author" content="Vraie Forêt">
-    <title>Vraie Forêt - Plus de végétal !</title>
-
+  <meta charset="utf-8">
+  <title>Vraie Forêt - Plus de végétal !</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Vraie Forêt est une association qui aide les particuliers, les entreprises et les collectivités dans leurs projets de restauration écologique, désartificialisation de sol, plantation et entretien de végétaux terrestres ou aquatiques en Loire-Atlantique.">
+  <meta name="author" content="Vraie Forêt">
+    
     <link rel="apple-touch-icon" href="/docs/5.3/assets/img/favicons/apple-touch-icon.png" sizes="180x180">
     <link rel="icon" href="/docs/5.3/assets/img/favicons/favicon-32x32.png" sizes="32x32" type="image/png">
     <link rel="icon" href="/docs/5.3/assets/img/favicons/favicon-16x16.png" sizes="16x16" type="image/png">
@@ -16,43 +15,451 @@
     <link rel="icon" href="/docs/5.3/assets/img/favicons/favicon.ico">
     <meta name="theme-color" content="#712cf9">
 
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/styles.css" rel="stylesheet">
+  <!-- Bootstrap CSS uniquement -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/styles.css" rel="stylesheet">
 </head>
+<body>
 
-<body class="home d-flex h-100 text-center text-bg-dark">
-    <video autoplay muted loop playsinline id="myVideo" poster="img/poster.png">
-        <source src="vids/vraie-foret.mp4" type="video/mp4">
-        <source src="vids/vraie-foret.webm" type="video/webm">
-    </video>
-
-    <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
-        <header class="mb-auto">
-            <div>
-                <h3 class="float-md-start mb-0">Vraie Forêt</h3>
-                <nav class="nav nav-masthead justify-content-center float-md-end">
-                    <a class="nav-link fw-bold py-1 px-0 active" aria-current="page" href="#">Accueil</a>
-                    <a class="nav-link fw-bold py-1 px-0" href="plantation-arbre-haie-foret-verger-mare-44-loire-atlantique.html">En savoir plus</a>
-                    <a class="nav-link fw-bold py-1 px-0" href="plantation-arbre-haie-foret-verger-mare-44-loire-atlantique.html#contact">Contact</a>
-                </nav>
-            </div>
-        </header>
-
-        <main class="px-3">
-            <h1>Plus de végétal</h1>
-            <p class="lead">Forêts, vergers, mares, haies et jardins.
-                <br>Vraie Forêt vous conseille et réalise vos projets.</p>
-            <p class="lead">
-                <a href="plantation-arbre-haie-foret-verger-mare-44-loire-atlantique.html" class="btn btn-lg btn-light fw-bold border-white bg-white">En savoir plus</a>
-            </p>
-        </main>
-
-        <footer class="mt-auto text-white-50">
-            <p><a href="informations-legales.html" class="text-white">Informations légales</a></p>
-        </footer>
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-expand-md fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#accueil">
+        <span class="brand-highlight">Vraie Forêt</span>
+      </a>
+      <!-- Pas de JS : simple menu non-collapsé sur mobile -->
+      <div class="ms-auto">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" href="#actions">Ce que nous faisons</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#temoignages">Témoignages</a>
+            </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#apropos">L’association</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
     </div>
-    <script src="js/bootstrap.bundle.min.js"></script>
+  </nav>
+
+  <!-- HERO VIDÉO -->
+  <header id="accueil" class="hero">
+    <!-- Remplace le chemin de la vidéo par ton fichier -->
+    <video class="hero-video" autoplay muted loop playsinline>
+      <source src="vids/vraie-foret.mp4" type="video/mp4">
+      Votre navigateur ne supporte pas la vidéo HTML5.
+    </video>
+    <div class="hero-overlay"></div>
+
+    <div class="container">
+      <div class="hero-content">
+        <div class="hero-kicker mb-2">Association loi 1901 – Loire-Atlantique</div>
+        <h1 class="hero-title">Vraie Forêt, plus de végétal</h1>
+        <p>Vraie Forêt est une association qui aide les particuliers, les entreprises et les collectivités
+          dans leurs projets de restauration écologique, de désartificialisation des sols, de plantation
+          et d’entretien de végétaux terrestres ou aquatiques.
+        </p>
+        
+        <div class="hero-badges mb-4">
+          <span class="badge rounded-pill badge-soft me-2 mb-2">Haies bocagères</span>
+          <span class="badge rounded-pill badge-soft me-2 mb-2">Forêts et bosquets</span>
+          <span class="badge rounded-pill badge-soft me-2 mb-2">Mares et zones humides</span>
+          <span class="badge rounded-pill badge-soft me-2 mb-2">Plessage et entretien</span>
+          <span class="badge rounded-pill badge-soft me-2 mb-2">Jardins</span>
+        </div>
+        <a href="#contact" class="btn btn-light btn-lg px-4">
+          Nous parler de votre projet
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- SECTION : CE QUE NOUS FAISONS -->
+  <section id="actions">
+    <div class="container">
+      <div class="row align-items-start mb-4">
+        <div class="col-lg-6">
+          <h2 class="section-title">Ce que fait l’association</h2>
+          <p class="section-intro">
+            Nous intervenons en Loire-Atlantique auprès de particuliers, d’entreprises et de collectivités.
+            Chaque projet est étudié au cas par cas pour respecter au mieux les enjeux écologiques, le contexte du site
+            et vos contraintes.
+          </p>
+        </div>
+      </div>
+
+      <div class="row g-4">
+        <!-- Haie bocagère -->
+        <div class="col-md-6 col-lg-3">
+          <article class="action-card p-3">
+            <div class="mb-2 action-audience">
+              Professionnels · Collectivités
+            </div>
+            <h3 class="mb-2">Plantation de haie bocagère</h3>
+            <p class="mb-2">
+              Planter des haies diversifiées et adaptées pour la biodiversité, le paysage et la protection des cultures.
+            </p>
+            <ul class="small mb-0">
+              <li><span class="action-step-title">Printemps / été :</span> visite de terrain et analyse.</li>
+              <li><span class="action-step-title">Septembre :</span> préparation du sol.</li>
+              <li><span class="action-step-title">Octobre :</span> achats et logistique.</li>
+              <li><span class="action-step-title">Novembre à février :</span> plantation.</li>
+              <li><span class="action-step-title">Mars à juin :</span> suivi et entretien.</li>
+            </ul>
+          </article>
+        </div>
+
+        <!-- Forêt -->
+        <div class="col-md-6 col-lg-3">
+          <article class="action-card p-3">
+            <div class="mb-2 action-audience">
+               Collectivités · Particuliers
+            </div>
+            <h3 class="mb-2">Plantation de forêt</h3>
+            <p class="mb-2">
+              Planter des forêts, espaces arborés, ripisylves avec un bon taux de reprise racinaire.
+            </p>
+            <ul class="small mb-0">
+              <li><span class="action-step-title">Printemps / été :</span> visite et analyse du site.</li>
+              <li><span class="action-step-title">Septembre :</span> préparation du sol.</li>
+              <li><span class="action-step-title">Octobre :</span> achats et organisation.</li>
+              <li><span class="action-step-title">Novembre à février :</span> plantation.</li>
+              <li><span class="action-step-title">Mars à juin :</span> suivi et entretien.</li>
+            </ul>
+          </article>
+        </div>
+
+        <!-- Mare -->
+        <div class="col-md-6 col-lg-3">
+          <article class="action-card p-3">
+            <div class="mb-2 action-audience">
+               Collectivités · Particuliers
+            </div>
+            <h3 class="mb-2">Création de mare</h3>
+            <p class="mb-2">
+              Créer des mares et zones humides qui accueillent la faune et la flore aquatiques.
+            </p>
+            <ul class="small mb-0">
+              <li><span class="action-step-title">Été :</span> visite et analyse du site.</li>
+              <li><span class="action-step-title">Septembre :</span> excavation de la mare.</li>
+              <li><span class="action-step-title">Mars à juin :</span> achats, mise en place et végétalisation.</li>
+            </ul>
+          </article>
+        </div>
+
+        <!-- Plessage -->
+        <div class="col-md-6 col-lg-3">
+          <article class="action-card p-3">
+            <div class="mb-2 action-audience">
+              Professionnels · Particuliers
+            </div>
+            <h3 class="mb-2">Plessage de haies</h3>
+            <p class="mb-2">
+              Entretenir et renforcer les haies existantes grâce au plessage, une technique traditionnelle qui densifie la haie.
+            </p>
+            <ul class="small mb-0">
+              <li><span class="action-step-title">Septembre à mars :</span> réalisation des travaux de plessage.</li>
+              <li><span class="action-step-title">Avril à août :</span> visite de suivi.</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </div>
+  </section>
+
+    <!-- SECTION : TÉMOIGNAGES -->
+  <section id="temoignages">
+    <div class="container">
+      <div class="row align-items-start mb-4">
+        <div class="col-lg-6">
+          <h2 class="section-title">Ils nous ont fait confiance</h2>
+          <p class="section-intro">
+            Quelques retours de personnes et de collectivités accompagnées par Yoann
+            pour leurs projets de haies, de forêts, de mares ou de végétalisation.
+          </p>
+        </div>
+      </div>
+
+      <div class="row g-4">
+        <div class="col-md-6 col-lg-4">
+          <figure class="testimonial-card">
+            <blockquote>
+              "Lorsque nous avons lancé la reforestation de notre terrain, nous avons décidé
+              de faire confiance à Yoann Grange. Il est venu sur place et nous a conseillé
+              sur le choix des espèces. Sa rapidité d’intervention, sa rigueur, son expertise
+              et exécution nous ont bluffé."
+            </blockquote>
+            <figcaption>François &amp; Audrey</figcaption>
+          </figure>
+        </div>
+
+        <div class="col-md-6 col-lg-4">
+          <figure class="testimonial-card">
+            <blockquote>
+              "Personne professionnelle et à l’écoute. Nous avons eu de bons conseils,
+              en prenant en compte notre terrain : exposition, nature du sol ainsi que
+              pour le choix des espèces. Ponctuel et travail très propre, je recommande !"
+            </blockquote>
+            <figcaption>Clément</figcaption>
+          </figure>
+        </div>
+
+        <div class="col-md-6 col-lg-4">
+          <figure class="testimonial-card">
+            <blockquote>
+              "Le top, rien à redire. À l'écoute de mes demandes. Il a su s'adapter à mon terrain
+              et aux demandes de la mairie. Bref un artisan de qualité !"
+            </blockquote>
+            <figcaption>Frédéric</figcaption>
+          </figure>
+        </div>
+
+        <div class="col-md-6 col-lg-4">
+          <figure class="testimonial-card">
+            <blockquote>
+              "À l'écoute du besoin et très professionnel. Bons conseils d'intégration dans
+              l'environnement de la maison."
+            </blockquote>
+            <figcaption>Olivier</figcaption>
+          </figure>
+        </div>
+
+        <div class="col-md-6 col-lg-4">
+          <figure class="testimonial-card">
+            <blockquote>
+              "Je recommande vivement Yoann. Je souhaitais avoir une haie sur ma propriété.
+              Il a été de très bon conseil. Le résultat est juste parfait !"
+            </blockquote>
+            <figcaption>Chloé</figcaption>
+          </figure>
+        </div>
+
+        <div class="col-md-6 col-lg-4">
+          <figure class="testimonial-card">
+            <blockquote>
+              "Yoann est passionné par son métier et ça se voit : pédagogie pour expliquer
+              le choix des espèces et les soins à apporter dans le futur, travail soigné
+              lors du chantier. On a hâte de voir le résultat dans quelques mois."
+            </blockquote>
+            <figcaption>Sophie</figcaption>
+          </figure>
+        </div>
+
+        <div class="col-md-6 col-lg-4">
+          <figure class="testimonial-card">
+            <blockquote>
+              "Beau résultat, travail soigné et conforme à ce qui a été prévu, je recommande Yoann."
+            </blockquote>
+            <figcaption>Florent</figcaption>
+          </figure>
+        </div>
+
+        <div class="col-md-6 col-lg-4">
+          <figure class="testimonial-card">
+            <blockquote>
+              "Expérience au top. Yoann est une personne passionnée et ça se ressent dans la
+              qualité de son travail ! Une personne à qui on peut faire confiance ! Merci pour tout."
+            </blockquote>
+            <figcaption>Adrien</figcaption>
+          </figure>
+        </div>
+
+        <div class="col-md-6 col-lg-4">
+          <figure class="testimonial-card">
+            <blockquote>
+              "Yoann est un expert en arbres et en plantations que je vous recommande vivement.
+              Il a une capacité d'écoute et d'adaptation remarquables, intégrant nos envies
+              et les impératifs naturels et climatiques. La mare a également été colonisée
+              très rapidement."
+            </blockquote>
+            <figcaption>Stéphane</figcaption>
+          </figure>
+        </div>
+
+        <div class="col-md-6 col-lg-4">
+          <figure class="testimonial-card">
+            <blockquote>
+              "Hyper contente de ma forêt en ville. Super projet, on a été très bien accompagnés
+              et le résultat est déjà super. J'ai hâte de voir tout ça pousser !"
+            </blockquote>
+            <figcaption>Valériane</figcaption>
+          </figure>
+        </div>
+
+        <div class="col-md-6 col-lg-4">
+          <figure class="testimonial-card">
+            <blockquote>
+              "Nous cherchions depuis longtemps une personne pour nous aider à reboiser qui
+              comprenne exactement notre souhait. Nous l'avons trouvée avec Yoann."
+            </blockquote>
+            <figcaption>Thierry</figcaption>
+          </figure>
+        </div>
+
+        <div class="col-md-6 col-lg-4">
+          <figure class="testimonial-card">
+            <blockquote>
+              "La commune a fait appel à Yoann pour créer une ripisylve en bord de Sèvre.
+              Yoann nous a aidés à préparer le terrain, choisir les essences, les planter
+              et les protéger. Les échanges avec Yoann ont été agréables, efficaces et instructifs.
+              Nous recommandons Yoann."
+            </blockquote>
+            <figcaption>Hélène</figcaption>
+          </figure>
+        </div>
+
+        <div class="col-md-6 col-lg-4">
+          <figure class="testimonial-card">
+            <blockquote>
+              "Yoann a fait preuve d'un grand professionnalisme et d'une grande pédagogie
+              (explications claires, intéressantes, nécessaires...) lors du chantier participatif.
+              On peut clairement ressentir la passion de Yoann envers son métier."
+            </blockquote>
+            <figcaption>Arnaud</figcaption>
+          </figure>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- SECTION : À PROPOS -->
+  <section id="apropos">
+    <div class="container">
+      <div class="row gy-4 align-items-center">
+        
+        <div class="col-lg-5 text-center text-lg-start">
+            <p class="mb-3">
+                <strong>Yoann Grange</strong>, fondateur de l’association, intervient le weekend pour réaliser les projets
+                et conseiller les bénéficiaires.
+            </p>
+
+            <div class="row g-3">
+                <div class="col-12 col-md-6">
+                <figure class="mb-0">
+                    <img src="img/plantation-haie-44.jpg"
+                        alt="Plantation d'une haie de 650 m à Riaillé."
+                        class="img-fluid rounded mb-1">
+                    <figcaption><small>Plantation d'une haie de 650 m à Riaillé.</small></figcaption>
+                </figure>
+                </div>
+                <div class="col-12 col-md-6">
+                <figure class="mb-0">
+                    <img src="img/plantation-ripisylve-44.jpg"
+                        alt="Visite de suivi d'une ripisylve plantée 2,5 ans plus tôt à Gétigné."
+                        class="img-fluid rounded mb-1">
+                    <figcaption><small>Visite de suivi d'une ripisylve plantée 2,5 ans plus tôt à Gétigné.</small></figcaption>
+                </figure>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="col-lg-7">
+          <div class="about-card">
+            <h2 class="section-title mb-3">L’association Vraie Forêt</h2>
+            <p>
+              Vraie Forêt est une association loi 1901 basée en Loire-Atlantique. Nous travaillons sur des projets
+              concrets de restauration écologique, de désartificialisation des sols et de plantation de végétaux
+              terrestres ou aquatiques.
+            </p>
+            <p>
+              Nous intervenons <strong>uniquement en Loire-Atlantique</strong> et nous sélectionnons les projets pour
+              rester en adéquation avec les statuts et les valeurs de l’association.
+            </p>
+            <p>
+              Lorsque c’est nécessaire, nous collaborons avec d’autres organisations pour compléter nos compétences :
+              géologues, entomologues, spécialistes de génie environnemental, écologues, agriculteurs, conseillers, etc.
+            </p>
+            <p class="mb-0">
+              L’objectif reste le même : <strong>mettre plus de végétal à la bonne place</strong>, en respectant les
+              sols, l’eau, la faune et les usages des lieux.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SECTION : CONTACT -->
+  <section id="contact">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-7">
+          <div class="contact-card">
+            <h2 class="section-title mb-3">Parler de votre projet</h2>
+            <p class="section-intro mb-4">
+              Vous avez un projet de haie, de mare, de plantation d’arbres ou de restauration écologique en Loire-Atlantique&nbsp;?
+              Envoyez-nous quelques informations et nous verrons ensemble si l’association peut vous accompagner.
+            </p>
+
+            <div class="mb-3">
+              <div class="contact-label">Adresse email</div>
+              <p class="fs-5 mb-1">
+                <a href="mailto:vraie.foret@gmail.com">vraie.foret@gmail.com</a>
+              </p>
+            </div>
+
+            <div class="mb-3">
+              <div class="contact-label">Téléphone</div>
+              <p class="fs-5 mb-1">
+                <a href="tel:+33643677814">06&nbsp;43&nbsp;67&nbsp;78&nbsp;14</a>
+              </p>
+            </div>
+
+           <div class="mb-3">
+            <div class="contact-label">Communes d’intervention</div>
+            <p class="mb-2">
+                Nous intervenons dans l’ensemble des communes du département de la Loire-Atlantique (44),
+                par exemple&nbsp;:
+            </p>
+            <div class="small" style="column-count: 1;">
+                Abbaretz, Aigrefeuille-sur-Maine, Ancenis-Saint-Géréon, Assérac, Avessac, Batz-sur-Mer, Blain, Bouaye, Bouguenais, Bouvron, Carquefou, Châteaubriant, Chaumes-en-Retz, Clisson, Couëron, Donges, Drefféac, Divatte-sur-Loire, Guémené-Penfao, Guérande, Herbignac, Héric, Indre, La Baule-Escoublac, La Bernerie-en-Retz, La Chapelle-sur-Erdre, La Chevrolière, Le Croisic, Le Pellerin, Loireauxence, Machecoul-Saint-Même, Missillac, Nantes, Nozay, Nort-sur-Erdre, Orvault, Paulx, Piriac-sur-Mer, Pornic, Pornichet, Rezé, Saint-Brevin-les-Pins, Saint-Herblain, Saint-Nazaire, Saint-Philbert-de-Grand-Lieu, Saint-Étienne-de-Montluc, Savenay, Vallet, Vertou, Villeneuve-en-Retz...
+            </div>
+            </div>
+
+
+            <p class="small text-muted mb-0 mt-4">
+              L’association n’utilise pas de formulaires ni de suivi statistique sur ce site.
+              Pour nous contacter, il suffit de nous écrire ou de nous appeler.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER / MENTIONS LÉGALES -->
+  <footer>
+    <div class="container">
+      <div class="row gy-3 align-items-start">
+        <div class="col-md-6">
+          <div class="mb-1">
+            <strong>Vraie Forêt</strong> – Association loi 1901
+          </div>
+          <div class="small">
+            RNA&nbsp;: W442030253<br>
+            Éditeur du site&nbsp;: Vraie Forêt<br>
+            Hébergeur&nbsp;: GitHub
+          </div>
+        </div>
+        <div class="col-md-6 text-md-end">
+          <div class="small mb-1">
+            Site statique sans cookies ni traceurs.
+          </div>
+          <div class="small">
+            Contact&nbsp;: <a href="mailto:vraie.foret@gmail.com">vraie.foret@gmail.com</a> ·
+            <a href="tel:+33643677814">06&nbsp;43&nbsp;67&nbsp;78&nbsp;14</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
 
 </body>
-
 </html>
