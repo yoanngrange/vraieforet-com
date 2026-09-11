@@ -17,6 +17,9 @@
 
   <!-- Bootstrap CSS uniquement -->
   <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
   <link href="css/styles.css" rel="stylesheet">
 </head>
 <body>
@@ -24,14 +27,23 @@
   <!-- NAVBAR -->
   <nav class="navbar navbar-expand-md fixed-top">
     <div class="container">
-      <a class="navbar-brand" href="#accueil">
+      <a class="navbar-brand d-flex align-items-center" href="#accueil">
+        <img src="img/logo-head.svg" alt="" class="navbar-logo me-2">
         <span class="brand-highlight">Vraie Forêt</span>
       </a>
-      <!-- Pas de JS : simple menu non-collapsé sur mobile -->
-      <div class="ms-auto">
+
+      <!-- Menu burger en CSS pur (case à cocher), sans dépendance JS externe -->
+      <input type="checkbox" id="nav-toggle" class="nav-toggle">
+      <label for="nav-toggle" class="nav-burger" aria-label="Ouvrir le menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </label>
+
+      <div class="nav-menu ms-md-auto">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link active" href="#actions">Ce que nous faisons</a>
+            <a class="nav-link active" href="#activites">Activités</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#applications">Applications</a>
@@ -39,9 +51,6 @@
           <li class="nav-item">
             <a class="nav-link" href="#temoignages">Témoignages</a>
             </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#apropos">L’association</a>
-          </li>
           <li class="nav-item">
             <a class="nav-link" href="#contact">Contact</a>
           </li>
@@ -86,11 +95,11 @@
   </header>
 
   <!-- SECTION : CE QUE NOUS FAISONS -->
-  <section id="actions">
+  <section id="activites">
     <div class="container">
       <div class="row align-items-start mb-4">
         <div class="col-lg-6">
-          <h2 class="section-title">Ce que fait l’association</h2>
+          <h2 class="section-title">Activités</h2>
           <p class="section-intro">
             Nous intervenons auprès de particuliers, d’entreprises et de collectivités.
             Chaque projet est étudié au cas par cas pour respecter au mieux les enjeux écologiques ou
@@ -219,10 +228,13 @@
   <!-- SECTION : APPLICATIONS -->
   <section id="applications">
     <div class="container">
-      <div class="row align-items-start mb-4">
-        <div class="col-lg-6">
-          <h2 class="section-title">Applications mises à disposition par l’association</h2>
-          <p class="section-intro">
+      <div class="row align-items-center mb-4">
+        <div class="col-4 col-md-auto applications-logo-col">
+          <img src="img/logo.svg" alt="Vraie Forêt" class="applications-logo">
+        </div>
+        <div class="col-8 col-md applications-text-col">
+          <h2 class="section-title mb-2">Applications mises à disposition par l’association</h2>
+          <p class="section-intro mb-0">
             Vraie Forêt développe et met à disposition des outils numériques au service des
             projets écologiques et alimentaires.
           </p>
@@ -277,7 +289,7 @@
     <div class="container">
       <div class="row align-items-start mb-4">
         <div class="col-lg-6">
-          <h2 class="section-title">Ils nous ont fait confiance</h2>
+          <h2 class="section-title">Ils nous font confiance</h2>
           <p class="section-intro">
             Quelques retours de personnes, d'entreprises et de collectivités accompagnées par Vraie Forêt
             pour leurs projets de haies, de forêts, de mares ou de végétalisation.
@@ -452,76 +464,53 @@
   </section>
 
 
-  <!-- SECTION : À PROPOS -->
-  <section id="apropos">
-    <div class="container">
-      <div class="row gy-4 align-items-center">
-        
-        <div class="col-lg-5 text-center text-lg-start">
-            <p class="mb-3">
-                <strong>Yoann Grange</strong>, fondateur de l’association, intervient le weekend pour réaliser les projets
-                et conseiller les bénéficiaires.
-            </p>
-
-            <div class="row g-3">
-                <div class="col-12 col-md-6">
-                <figure class="mb-0">
-                    <img src="img/plantation-haie-44.jpg"
-                        alt="Plantation d'une haie de 650 m à Riaillé."
-                        class="img-fluid rounded mb-1">
-                    <figcaption><small>Plantation d'une haie de 650 m à Riaillé.</small></figcaption>
-                </figure>
-                </div>
-                <div class="col-12 col-md-6">
-                <figure class="mb-0">
-                    <img src="img/plantation-ripisylve-44.jpg"
-                        alt="Visite de suivi d'une ripisylve plantée 2,5 ans plus tôt à Gétigné."
-                        class="img-fluid rounded mb-1">
-                    <figcaption><small>Visite de suivi d'une ripisylve plantée 2,5 ans plus tôt à Gétigné.</small></figcaption>
-                </figure>
-                </div>
-            </div>
-        </div>
-
-
-        <div class="col-lg-7">
-          <div class="about-card">
-            <h2 class="section-title mb-3">L’association Vraie Forêt</h2>
-            <p>
-              Vraie Forêt est une association loi 1901 qui aide les particuliers, les entreprises et les
-              collectivités dans leurs projets écologiques et alimentaires.
-            </p>
-            <p>
-              Concrètement, nous valorisons les ressources naturelles, nous produisons et valorisons des denrées
-              alimentaires des terroirs, et nous plantons et entretenons des végétaux terrestres ou aquatiques.
-              Nous proposons également des services informatiques pour accompagner ces démarches.
-            </p>
-            <p>
-              Nous sélectionnons les projets pour rester en adéquation avec les statuts et les valeurs de
-              l’association. Lorsque c’est nécessaire, nous collaborons avec d’autres organisations pour compléter
-              nos compétences : agronomes, géologues, entomologues, spécialistes de génie environnemental,
-              écologues, agriculteurs, développeurs, conseillers, etc.
-            </p>
-            <p class="mb-0">
-              L’objectif reste le même : <strong>mettre plus de végétal à la bonne place</strong>, en respectant les
-              sols, l’eau, la faune et les usages des lieux.
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- SECTION : CONTACT -->
+  <!-- SECTION : L'ASSOCIATION & CONTACT -->
   <section id="contact">
     <div class="container">
-      <div class="row justify-content-center">
-        <div class="col-lg-7">
+      <div class="row gy-5">
+        <div class="col-lg-6">
+          <h2 class="section-title mb-3">L’association Vraie Forêt</h2>
+          <p>
+            Vraie Forêt est une association loi 1901 qui aide les particuliers, les entreprises et les
+            collectivités dans leurs projets écologiques et alimentaires.
+          </p>
+          <p>
+            Concrètement, nous valorisons les ressources naturelles, nous produisons et valorisons des denrées
+            alimentaires des terroirs, et nous plantons et entretenons des végétaux terrestres ou aquatiques.
+            Nous proposons également des services informatiques pour accompagner ces démarches.
+          </p>
+          <p>
+            Lorsque c’est nécessaire, nous collaborons avec d’autres organisations pour compléter nos
+            compétences : agronomes, géologues, entomologues, spécialistes de génie environnemental,
+            écologues, agriculteurs, développeurs, conseillers, etc.
+          </p>
+
+          <div class="row g-3 mt-2">
+            <div class="col-12 col-sm-6">
+              <figure class="mb-0">
+                <img src="img/plantation-haie-44.jpg"
+                    alt="Plantation d'une haie de 650 m à Riaillé."
+                    class="img-fluid rounded mb-1">
+                <figcaption><small>Plantation d'une haie de 650 m à Riaillé.</small></figcaption>
+              </figure>
+            </div>
+            <div class="col-12 col-sm-6">
+              <figure class="mb-0">
+                <img src="img/plantation-ripisylve-44.jpg"
+                    alt="Visite de suivi d'une ripisylve plantée 2,5 ans plus tôt à Gétigné."
+                    class="img-fluid rounded mb-1">
+                <figcaption><small>Visite de suivi d'une ripisylve plantée 2,5 ans plus tôt à Gétigné.</small></figcaption>
+              </figure>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-6">
           <div class="contact-card">
-            <h2 class="section-title mb-3">Parler de votre projet</h2>
+            <h2 class="section-title mb-3">Contact</h2>
             <p class="section-intro mb-4">
-              Vous avez un projet écologique ou alimentaire, ou besoin d’un accompagnement informatique&nbsp;?
-              Envoyez-nous quelques informations et nous verrons ensemble si l’association peut vous accompagner.
+              Vous avez un projet&nbsp;? Envoyez-nous quelques informations et nous verrons ensemble si
+              l’association peut vous accompagner.
             </p>
 
             <div class="mb-3">
@@ -575,5 +564,13 @@
     </div>
   </footer>
 
+  <script>
+    // Referme le menu mobile après un clic sur un lien (pas de tracking, juste un état d'UI)
+    document.querySelectorAll('.nav-menu .nav-link').forEach(function (link) {
+      link.addEventListener('click', function () {
+        document.getElementById('nav-toggle').checked = false;
+      });
+    });
+  </script>
 </body>
 </html>
