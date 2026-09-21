@@ -40,6 +40,6 @@ jobs:
           CF_SITE_TAG: 'e2e930bdc1ba4c42a71971ac21025443'
           RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
           REPORT_EMAIL_TO: 'yoann.grange@gmail.com'
-          REPORT_EMAIL_FROM: 'vraieforet.com Reports <vraieforet-reports@basic-map.com>'
+          REPORT_EMAIL_FROM: 'vraieforet.com Reports <vraieforet-reports@yoanngrange.com>'
           SITE_NAME: 'vraieforet.com'
         run: python3 scripts/weekly_traffic_recap.py
