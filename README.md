@@ -5,7 +5,7 @@ Vraie Forêt est une association loi 1901 basée en Loire-Atlantique.
 Elle accompagne les particuliers, collectivités et entreprises dans leurs projets de restauration écologique : haies bocagères, mini-forêts, mares, plessage et végétalisation.
 
 Ce dépôt contient le code source du site officiel de l’association.  
-Le site est statique, léger, sans cookies, sans JavaScript et hébergé via GitHub Pages.
+Le site est statique, léger, sans cookies (Cloudflare Web Analytics, qui n'en dépose aucun) et hébergé via GitHub Pages.
 
 ---
 
@@ -24,8 +24,7 @@ Le site est statique, léger, sans cookies, sans JavaScript et hébergé via Git
 - **HTML5** (pages statiques)  
 - **CSS3**  
 - **Bootstrap 5** (CSS uniquement, sans JS)  
-- Aucune dépendance JavaScript  
-- Aucune collecte de données, aucun cookie, aucun tracker  
+- **Cloudflare Web Analytics** — mesure d'audience sans dépôt de cookie  
 - Hébergement : **GitHub Pages**
 
 ---
